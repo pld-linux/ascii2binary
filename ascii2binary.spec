@@ -1,6 +1,5 @@
-#
-Summary:	Two complementary programs that convert between textual and binary representations of numbers
-Summary(pl):	Dwa uzupe³niaj±ce siê programy zamieniaj±ce tekstow± i binarn± reprezentacjê liczb
+Summary:	Convert between textual and binary representations of numbers
+Summary(pl):	Zamiana miêdzy tekstow± a binarn± reprezentacj± liczb
 Name:		ascii2binary
 Version:	2.12
 Release:	1
@@ -19,9 +18,9 @@ selected using command line flags.
 
 %description -l pl
 Ascii2Binary zawiera dwa uzupe³niaj±ce siê programy zamieniaj±ce
-tekstow± oraz binarn± reprezentacjê liczb. W obu programach typ oraz
-rozmiar i precyzja danych jest wybierania na podstawie flag linii
-poleceñ.
+liczby miêdzy ich tekstow± a binarn± reprezentacj±. W obu programach
+typ oraz rozmiar i precyzja danych jest wybierania na podstawie flag
+linii poleceñ.
 
 %prep
 %setup -q
@@ -41,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README ChangeLog AUTHORS INSTALL NEWS README
+%doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
