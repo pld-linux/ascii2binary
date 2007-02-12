@@ -1,5 +1,5 @@
 Summary:	Convert between textual and binary representations of numbers
-Summary(pl.UTF-8):   Zamiana między tekstową a binarną reprezentacją liczb
+Summary(pl.UTF-8):	Zamiana między tekstową a binarną reprezentacją liczb
 Name:		ascii2binary
 Version:	2.12
 Release:	1
