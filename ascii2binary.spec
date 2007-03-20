@@ -1,5 +1,5 @@
 Summary:	Convert between textual and binary representations of numbers
-Summary(pl.UTF-8):	Zamiana miÄ™dzy tekstowÄ… a binarnÄ… reprezentacjÄ… liczb
+Summary(pl):	Zamiana miêdzy tekstow± a binarn± reprezentacj± liczb
 Name:		ascii2binary
 Version:	2.13
 Release:	1
@@ -16,11 +16,11 @@ convert between textual and binary representations of numbers. In both
 programs, the type and size/precision of the input or output is
 selected using command line flags.
 
-%description -l pl.UTF-8
-Ascii2Binary zawiera dwa uzupeÅ‚niajÄ…ce siÄ™ programy zamieniajÄ…ce
-liczby miÄ™dzy ich tekstowÄ… a binarnÄ… reprezentacjÄ…. W obu programach
+%description -l pl
+Ascii2Binary zawiera dwa uzupe³niaj±ce siê programy zamieniaj±ce
+liczby miêdzy ich tekstow± a binarn± reprezentacj±. W obu programach
 typ oraz rozmiar i precyzja danych jest wybierania na podstawie flag
-linii poleceÅ„.
+linii poleceñ.
 
 %prep
 %setup -q
