@@ -1,12 +1,12 @@
 Summary:	Convert between textual and binary representations of numbers
 Summary(pl.UTF-8):	Zamiana między tekstową a binarną reprezentacją liczb
 Name:		ascii2binary
-Version:	2.13
+Version:	2.14
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.billposer.org/Software/Downloads/%{name}-%{version}.tar.gz
-# Source0-md5:	25682a506a21bdf12f879b3425adc545
+# Source0-md5:	d2366dd7cf9ac7f66766f9cf19af64f4
 URL:		http://billposer.org/Software/a2b.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
